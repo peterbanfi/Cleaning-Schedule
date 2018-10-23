@@ -1,0 +1,14 @@
+{
+    "name": "Calendar",
+    "version": "1.0.0",
+    "description": "A calendar for making cleaning schedules",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass docs/sass/main.scss docs/css/style.css -w"
+    },
+    "author": "Peter Banfi",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^4.5.3"
+    }
+}
